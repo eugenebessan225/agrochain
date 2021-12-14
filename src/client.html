@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agrochain | client </title>
+    <link rel="stylesheet" type="text/css" href="./src/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./src/style.css">    
+</head>
+<body>
+    <canvas class="background"></canvas>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#" target="_blank">Agrochain | Client</a>
+		<div class="row" style="height:59px; margin-top: 10px;">
+			<div class="col-6">
+				<button class="btn btn-primary" id="enableEthereumButton" style="height: 50px; width: 97px;">Connecter</button>
+			</div>
+			<div class="col-6">
+				<a class="nav-link" href="#"><span id="showAccount" style="margin-right: -367px;">None</span>
+			</div>
+		</div>
+    </nav>
+    <div class="container">
+        <div class="row justify-content-center" style="margin-top: 70px;">
+            <div class="col-4">
+                <img src="./src/bootstrap-icons/flower1.svg" style="width:50px; height:50px; display: table-cell; vertical-align: middle; margin-left: 195px; margin-top: 5px;">
+                <br>
+                <h4 style="margin-left:166px; margin-top: -21px;">AgroChain</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12" style="width: 922px; margin-top: 15px;">
+                <div class="card shadow p-3 mb-5" style="border: none; background-color:#c7c6eda8">
+                    <div class="row" style="margin-bottom: 10px;">
+                        <div class="col-4">
+                            <img src="./src/bootstrap-icons/emoji-smile-upside-down.svg" style="width:40px; height:40px; color:white; margin-left: 352px;">
+                        </div>
+                        <div class="col-8">
+                            <h3 style="margin-left:118px">Client</h3>
+                        </div>
+                    </div>
+                    <div class="row" id="qrcode-2">
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./src/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="./src/qrcode.min.js"></script>
+<script type="text/javascript" src="./src/particles.js"></script>
+<script type="text/javascript" src="./src/sweetalert.min.js"></script>
+<script src="vendor/web3/dist/web3.min.js"></script>
+<script src="vendor/truffle-contract/dist/truffle-contract.js"></script>
+<script type="text/javascript" src="./app.js"></script>
+
+</html> 
+
+
